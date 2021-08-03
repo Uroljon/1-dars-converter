@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+</head>
+<body>
+    <script>
+      //so'mda qiymat qabul qiladi
+      let uzs = prompt("So'm da qiymat kiriting, Janob :");
+
+      //dollarga o'giradi
+      let usd = Number(uzs)/10654;
+
+      //yevroga o'giradi
+      let eur = Number(uzs)/12674;
+
+      let natija = `Pulingiz: ${Math.round(usd)} $ ,   aniqrog'i : ${usd} $
+               ${Math.round(eur)} € ,   aniqrog'i : ${eur} € `;
+
+      //natijani chop etadi
+      alert(natija);
+
+
+/* ******VALYUTA KURSI 03.08.2020******
++ 1USD = 10654 UZS
++ 1EUR = 12674 UZS
+*/
+    </script>
+</body>
+</html>
